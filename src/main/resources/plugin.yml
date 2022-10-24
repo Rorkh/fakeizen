@@ -1,0 +1,11 @@
+name: Fakeizen
+version: '${project.version}'
+main: rorkh.fakeizen.Fakeizen
+api-version: 1.19
+depend: [Denizen]
+
+commands:
+    fakeizen:
+      description: Fakeizen main
+      usage: /fakeizen
+      permission: fakeizen.usage
